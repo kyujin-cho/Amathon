@@ -1,0 +1,89 @@
+@import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+    margin: 15px;
+}
+header {
+    height: 65px;
+    text-align: center;
+    line-height: 65px;
+}
+#title {
+    position: absolute;
+    left: 40%;
+    font-family: Pacifico;
+    font-size: 24px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #576843;
+}
+#login-area {
+    float: right;
+}
+#login-area a {
+    font-family: 'Noto Sans KR';
+    font-size: 13px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2f2f2f;
+    text-decoration-line: none;
+}
+#divider {
+    text-align: center;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.row {
+    text-align: center;
+}
+#countryside {
+    width: 100%;
+    max-width: 700px;
+}
+#btn {
+    height: 40px;
+    width: 200px;
+    border-radius: 41px;
+    background-color: #576843;
+    box-shadow: 0 8px 16px 0 rgba(87, 104, 67, 0.37);
+    font-family: 'Noto Sans KR';
+    font-size: 12px;
+    font-weight: 500;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #ffffff;
+    line-height: 40px;
+}
+#line {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    width: calc(100% - 30px);
+} 
+#btn {
+    margin: auto;
+}
+#input-group {
+    text-align: center;
+    margin-bottom: 30px;
+}
+#input-group input {
+    border: solid 0.5px #aaaaaa;
+    width: 50%;
+    height: 25px;
+}
+#input-group button {
+    width: 30px;
+    border: none;
+    background: none;
+    margin-left: -35px;
+}
