@@ -252,7 +252,7 @@ class App extends React.Component {
   async getTranscribeData(completed, url) {
     if(completed) {
       const res = await axios.get(url)
-      const text = res.data.results.transcripts[0].transcript
+      const text = res.data.results.transcripts[0].transcript.toLowerCase()
       const selectedItems = this.state.items.filter(item => text.indexOf(item) > -1)
       if(selectedItems.length != 1) {
         this.setState({
@@ -260,8 +260,11 @@ class App extends React.Component {
         })
       } else {
         this.setState({
-          selectedItem: selectedItems[0]
+          selectedItem: selectedItems[0],
+          isVoiceModalOpen: false,
+          isAmountModalOpen: true
         })
+        
       }
 
       document.getElementById('progress').style.display = 'none'
